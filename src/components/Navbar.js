@@ -33,15 +33,16 @@ const Navbar = () => {
         >
           Home
         </NavLink>
-        <a
-          href="/exercise/:id  "
+        <NavLink
+          to="/exercise/:id  "
           style={{
             textDecoration: "none",
             color: "#3A1212",
           }}
         >
           Exercises
-        </a>
+        </NavLink>
+        {/* <a href="/exercise/:id  ">Exercises</a> */}
       </Stack>
     </Stack>
   );
